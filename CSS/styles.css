@@ -134,7 +134,7 @@ padding-bottom: 24px;
 
 .background-hero-sizes {
     padding-top: 200px;
-    padding-bottom: 280px;
+    padding-bottom: 200px;
     text-align: center;
 }
 
@@ -188,6 +188,16 @@ padding-bottom: 24px;
    padding-bottom: 94px;
 }
 
+.size-section2 {
+    padding-bottom: 94px;
+}
+
+.size-section3 {
+    padding-bottom: 94px;
+}
+
+
+
 .advantages-main-list {
     display: flex;
     justify-content: space-between;
@@ -199,9 +209,7 @@ padding-bottom: 24px;
     justify-content: space-between;
 }
 
-.skills-sizes :not(:last-child) {
-    margin: 30px;
-}
+
 
 
 
@@ -271,8 +279,13 @@ justify-content: space-between;
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
-    margin-top: 30px;
     margin-bottom: 10px;
+}
+
+
+.employee-padding {
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 
@@ -285,7 +298,7 @@ justify-content: space-between;
     letter-spacing: 0.03em;
     color: #757575;
     margin-top: 10px;
-    margin-bottom: 30px;
+   
 }
 
  /* footer */
@@ -329,6 +342,10 @@ justify-content: space-between;
 
 /* portfolio */
 
+.header-portfolio {
+    border-bottom: 1px solid #ECECEC;;
+}
+
 .section-portfolio {
     padding-top: 94px;
     padding-bottom: 94px;
@@ -357,6 +374,12 @@ justify-content: space-between;
     background: #F5F4FA;
     border-radius: 4px;
     border-color: #F5F4FA;
+    padding-top: 6px;
+    padding-right: 22px;
+    padding-bottom: 6px;
+    padding-left: 22px;
+
+
 
 }
  
@@ -389,16 +412,25 @@ display: flex;
 }
 
 
- .poster-item-boxes:nth-child(3n) {
+
+
+ .poster-item-boxes {
+   margin-right: 30px;
+margin-bottom: 30px;
+    border: 1px solid #EEEEEE;
+ }
+
+ .poster-item-boxes:nth-child(3n)
+  {
     margin-right: 0;
 }
 
- .poster-item-boxes {
-    margin-right: 30px;
-    width: 370px;
-    margin-bottom: 30px;
- }
-
+ .portfolio-text-padding {
+padding-top: 20px;
+padding-bottom: 20px;
+padding-left: 24px;
+padding-right: 24px;
+}
 
 .poster-title {
     font-family: 'Roboto', sans-serif;
